@@ -10,7 +10,7 @@ Body {
 	}
 
 H1 {font-size: 50pt; text-align: right}
-H2 {font-size: 25pt; text-align: right}
+H2 {font-size: 25pt; text-align: right;}
 H3 {font-size: 10pt; text-align: center}
 H4 {text-align: center}
 H5 {font-size: 15pt}
@@ -32,3 +32,8 @@ Form {
 	color: white; 
 	background-color: green}
 
+@media screen and (max-width: 950px){
+
+	H2 {font-size: 25pt; text-align: right; color: red;}
+
+}
