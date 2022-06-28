@@ -3,16 +3,21 @@ A:hover {text-decoration: overline; color: teal}
 Body {
 	background-color: white;
 	font-family: cambria;
-	color: gray	
+	color: black	
 	}
 
-H1 {font-size: 50pt; text-align: right}
+H1 {font-size: 50pt; text-align: center}
 H2 {font-size: 30pt; text-align: center; color: black;}
 H3 {font-size: 10pt; text-align: center}
 H4 {text-align: center}
-H5 {font-size: 15pt}
+H5 {font-size: 15pt; color: black; text-align: center;}
 
-P {font-size: 10pt; font-family: monospace}
+.abut{
+	margin-top: 80px;
+	color: green;
+}
+
+P {width: 95%;text-align: center;margin: auto;font-size: 10pt; font-family: monospace}
 
 a .nav{
 	font-size: 35pt;
@@ -22,6 +27,10 @@ a .nav{
 a{
 	text-decoration: none;
 	color: black;
+}
+
+.first-p{
+	margin-top: 70px;
 }
 
 #Active{
@@ -89,6 +98,9 @@ Form {
 		font-size: 19pt;
 	}
 
+	.titles{
+		font-size: 40pt;
+	}
 }
 
 @media screen and (max-width: 740px){
@@ -102,6 +114,12 @@ Form {
 		width: 500px;
 		height: 250px;
 	}
+
+	.titles{
+		font-size: 26pt;
+	}
+
+
 
 }
 
