@@ -15,7 +15,7 @@
 	
 
 	<H2>
-		<a class="nav" href="./Project2.html">HOME</a>
+		<a class="nav" href="./Project2.html" id="Active">HOME</a>
 		<a class="nav" href="#res">RESERVATIONS</a>
 		<a class="nav" href="#rev">REVIEWS</a>
 		<a class="nav" href="./About.html">ABOUT</a>
@@ -32,13 +32,13 @@
 
 
 		<a name="res">
-			<H2>RESERVATIONS</H2>
+			<H2 class="titles">RESERVATIONS</H2>
 			<H5 class="r-name">Book a Table!</H5>
 			<Form method="post" action="http://facstaff.cbu.edu/dbrandon/echo.php">
 				<BR><BR>
 					
 				<p class="form-name">First and Last Name: </p>
-				<input type="text" size=40 name="Name">
+				<input class="input-bar" type="text" size=40 name="Name">
 				<BR><BR>
 
 				<p class="form-name">Date(ex. 05/25/20): </p>
@@ -59,7 +59,7 @@
 			<BR>
 
 			<a name="rev">
-				<H2>REVIEWS</H2>
+				<H2 class="titles">REVIEWS</H2>
 				<H4 class="review">"Do what you can to support local farmers!" - Sandy</H4>
 				<H4 class="review">"Learn how empowering it is to know where your food comes from!" - Tinashe</H4>
 				<H4 class="review">"Fight global warming, labor exploitation, food deserts, and so much more!"- Victor</H4>
@@ -73,7 +73,8 @@
 					<p class="form-name">First Name:</p> <input type="text" size=20 name="Name">
 					<p class="form-name">Date of Visit: </p><input type="text" size=20 name="Visit">
 					<BR><BR>
-					<p class="form-name">Comments: </p><input type="text" size=65 name="Review">
+					<p class="form-name">Comments: </p>
+					<input class="input-bar" type="text" size=65 name="Review">
 					<BR><BR>
 					<input type="submit" name="submit" value="submit">
 					<input type="reset" name="reset" value="reset">
