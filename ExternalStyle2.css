@@ -49,8 +49,10 @@ Table {
 	width: 400px; 
 	font-family: monospace; 
 	color: white; 
+	margin-left: auto;
+	margin-top: 20px;
+	margin-right: auto;
 	background-color: green;
-	margin: .8em;
 	border-color: darkgreen}
 
 .r-name{
@@ -135,6 +137,9 @@ Form {
 	}
 
 	.input-bar{
+		width: 100%;
+	}
+	Table{
 		width: 100%;
 	}
 	
